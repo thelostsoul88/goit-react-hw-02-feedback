@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+}
+
+.btnList {
+  margin: 20px 0;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.statList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statItem:first-child,
+.statItem:last-child {
+  color: green;
+}
+
+.statItem:nth-child(3) {
+  color: red;
+}
